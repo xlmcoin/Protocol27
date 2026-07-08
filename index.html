@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050b1f">
+
+<!-- Primary SEO -->
+<title>Protocol 27 | Building the Future of Open Blockchain Innovation with Stellar</title>
+<meta name="description" content="Protocol 27 is modern blockchain infrastructure built on the Stellar ecosystem — delivering fast settlement, low fees, global payments, and open financial infrastructure for developers worldwide.">
+<meta name="keywords" content="Protocol 27, Protocol 27 blockchain, Protocol 27 technology, Stellar blockchain, Stellar ecosystem, XLM, blockchain development, decentralized finance, open financial infrastructure">
+<meta name="author" content="Protocol 27">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://protocol27.vercel.app/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Protocol 27">
+<meta property="og:title" content="Protocol 27 | Open Blockchain Innovation with Stellar">
+<meta property="og:description" content="Protocol 27 represents modern blockchain infrastructure — speed, transparency, low transaction costs, and interoperability on the Stellar ecosystem.">
+<meta property="og:url" content="https://protocol27.vercel.app">
+<meta property="og:image" content="https://protocol27.vercel.app/og-image.jpg">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Protocol 27">
+<meta name="twitter:title" content="Protocol 27 | Open Blockchain Innovation with Stellar">
+<meta name="twitter:description" content="Fast settlement, low fees, global payments — Protocol 27 builds on the Stellar ecosystem.">
+<meta name="twitter:image" content="https://protocol27.vercel.app/twitter-card.jpg">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Protocol 27",
+  "alternateName": "Protocol 27 blockchain",
+  "url": "https://protocol27.vercel.app",
+  "logo": "https://protocol27.vercel.app/logo.svg",
+  "description": "Protocol 27 is modern blockchain infrastructure built on the Stellar ecosystem, delivering fast settlement, low fees, and open financial infrastructure.",
+  "sameAs": [
+    "https://stellar.org",
+    "hhttps://protocol27.vercel.app"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Protocol 27",
+  "url": "https://protocol27.vercel.app",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://protocol27.vercel.app/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Protocol 27?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Protocol 27 is a modern blockchain initiative built on the Stellar ecosystem, focused on delivering fast settlement, low transaction costs, transparency, and open financial infrastructure for developers and enterprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does Protocol 27 use Stellar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stellar provides 3–5 second settlement, fractions-of-a-cent fees, a global payment network, and a mature open-source developer ecosystem — making it an ideal foundation for Protocol 27 technology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can developers build on Protocol 27?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Developers can explore Stellar SDKs, APIs, and documentation at stellar.org, join the community, and start building decentralized finance applications on Protocol 27 infrastructure."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Preconnect -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://pagecdn.io" crossorigin>
+
+<!-- Fontsource: Inter -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-600-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@latest/latin-700-normal.css">
+
+<!-- Favicon (inline SVG) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300d4ff'/%3E%3Cstop offset='1' stop-color='%232962ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='%23050b1f'/%3E%3Ctext x='50' y='68' font-family='Arial' font-weight='700' font-size='48' text-anchor='middle' fill='url(%23g)'%3EP27%3C/text%3E%3C/svg%3E">
+
+<style>
+  :root{
+    --bg-0:#03060f;
+    --bg-1:#050b1f;
+    --bg-2:#0a1533;
+    --surface:rgba(255,255,255,0.04);
+    --surface-strong:rgba(255,255,255,0.07);
+    --border:rgba(120,180,255,0.14);
+    --border-strong:rgba(0,212,255,0.35);
+    --text:#e7eefc;
+    --text-dim:#9fb0cf;
+    --text-mute:#6b7a99;
+    --cyan:#00d4ff;
+    --blue:#2962ff;
+    --violet:#7c5cff;
+    --accent:linear-gradient(135deg,#00d4ff 0%,#2962ff 55%,#7c5cff 100%);
+    --glow:0 0 40px rgba(0,212,255,.25);
+    --radius:18px;
+    --radius-sm:12px;
+    --maxw:1200px;
+    --ease:cubic-bezier(.2,.7,.2,1);
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    color:var(--text);
+    background:var(--bg-0);
+    line-height:1.6;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* Background layers */
+  .bg-layer{
+    position:fixed;inset:0;z-index:-2;
+    background:
+      radial-gradient(1200px 700px at 85% -10%, rgba(41,98,255,.25), transparent 60%),
+      radial-gradient(900px 600px at -10% 30%, rgba(0,212,255,.18), transparent 60%),
+      radial-gradient(700px 500px at 50% 110%, rgba(124,92,255,.18), transparent 60%),
+      linear-gradient(180deg,var(--bg-0) 0%,var(--bg-1) 50%,var(--bg-0) 100%);
+  }
+  #networkCanvas{
+    position:fixed;inset:0;z-index:-1;width:100%;height:100%;
+    pointer-events:none;opacity:.7;
+  }
+
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* Skip link */
+  .skip{
+    position:absolute;left:-9999px;top:0;background:var(--cyan);color:#000;
+    padding:10px 14px;border-radius:0 0 8px 0;font-weight:600;z-index:1000;
+  }
+  .skip:focus{left:0}
+
+  /* Header */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(5,11,31,.55);
+    border-bottom:1px solid var(--border);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    height:72px;
+  }
+  .brand{
+    display:flex;align-items:center;gap:10px;font-weight:700;
+    font-family:'Space Grotesk',sans-serif;letter-spacing:.3px;
+  }
+  .brand-mark{
+    width:34px;height:34px;border-radius:9px;
+    background:var(--accent);
+    display:grid;place-items:center;
+    box-shadow:var(--glow);
+    font-size:12px;color:#001024;font-weight:800;
+  }
+  .brand-name{font-size:18px}
+  .brand-name span{background:var(--accent);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+  nav.primary ul{
+    display:flex;gap:28px;list-style:none;margin:0;padding:0;
+  }
+  nav.primary a{
+    color:var(--text-dim);font-size:14.5px;font-weight:500;
+    transition:color .2s var(--ease);position:relative;
+  }
+  nav.primary a:hover,nav.primary a:focus-visible{color:var(--text)}
+  nav.primary a::after{
+    content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;
+    background:var(--accent);transform:scaleX(0);transform-origin:left;
+    transition:transform .3s var(--ease);border-radius:2px;
+  }
+  nav.primary a:hover::after,nav.primary a:focus-visible::after{transform:scaleX(1)}
+
+  .nav-cta{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:10px 18px;border-radius:999px;
+    background:var(--accent);color:#001024;font-weight:700;font-size:14px;
+    transition:transform .2s var(--ease),box-shadow .2s var(--ease);
+  }
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:var(--glow)}
+
+  .menu-toggle{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--border)}
+  .menu-toggle span{display:block;width:18px;height:2px;background:var(--text);margin:3px auto;transition:.25s}
+
+  @media (max-width:860px){
+    nav.primary{
+      position:absolute;top:72px;left:0;right:0;
+      background:rgba(5,11,31,.95);backdrop-filter:blur(18px);
+      border-bottom:1px solid var(--border);
+      transform:translateY(-12px);opacity:0;pointer-events:none;
+      transition:.25s var(--ease);
+    }
+    nav.primary.open{transform:translateY(0);opacity:1;pointer-events:auto}
+    nav.primary ul{flex-direction:column;gap:0;padding:12px 0}
+    nav.primary a{display:block;padding:14px 24px}
+    .menu-toggle{display:block}
+    .nav-cta{display:none}
+  }
+
+  /* Hero */
+  .hero{
+    position:relative;padding:90px 0 80px;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;
+  }
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;gap:40px}
+    .hero{padding:56px 0 60px}
+  }
+
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:7px 14px;border-radius:999px;
+    background:var(--surface);border:1px solid var(--border);
+    font-size:13px;color:var(--text-dim);letter-spacing:.3px;
+    margin-bottom:22px;
+  }
+  .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+
+  h1.hero-title{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:clamp(34px,5.2vw,62px);
+    line-height:1.05;letter-spacing:-.02em;
+    margin:0 0 22px;font-weight:700;
+  }
+  h1.hero-title .grad{
+    background:var(--accent);-webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .hero-sub{
+    font-size:clamp(16px,1.4vw,18.5px);color:var(--text-dim);
+    max-width:60ch;margin:0 0 34px;
+  }
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:14px 24px;border-radius:12px;font-weight:600;font-size:15px;
+    transition:transform .2s var(--ease),box-shadow .25s var(--ease),background .2s;
+    border:1px solid transparent;
+  }
+  .btn-primary{background:var(--accent);color:#001024;box-shadow:0 10px 30px -10px rgba(0,212,255,.5)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px -10px rgba(0,212,255,.7)}
+  .btn-ghost{background:var(--surface);border-color:var(--border);color:var(--text)}
+  .btn-ghost:hover{background:var(--surface-strong);border-color:var(--border-strong)}
+  .btn svg{width:18px;height:18px}
+
+  .hero-meta{
+    display:flex;gap:28px;margin-top:38px;flex-wrap:wrap;
+    color:var(--text-mute);font-size:13.5px;
+  }
+  .hero-meta b{color:var(--text);font-weight:600}
+
+  /* Hero visual */
+  .hero-visual{
+    position:relative;aspect-ratio:1/1;max-width:520px;margin-left:auto;
+  }
+  .hero-visual .ring{
+    position:absolute;inset:0;border-radius:50%;
+    border:1px solid var(--border);
+    animation:spin 40s linear infinite;
+  }
+  .hero-visual .ring.r2{inset:10%;animation-duration:28s;animation-direction:reverse;border-color:rgba(0,212,255,.25)}
+  .hero-visual .ring.r3{inset:22%;animation-duration:20s;border-color:rgba(124,92,255,.25)}
+  .hero-visual .core{
+    position:absolute;inset:34%;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%,rgba(0,212,255,.5),rgba(41,98,255,.3) 50%,transparent 70%);
+    box-shadow:0 0 80px rgba(0,212,255,.35),inset 0 0 60px rgba(41,98,255,.3);
+    animation:pulse 4s ease-in-out infinite;
+  }
+  .node{
+    position:absolute;width:14px;height:14px;border-radius:50%;
+    background:var(--cyan);box-shadow:0 0 18px var(--cyan);
+  }
+  .node::after{
+    content:"";position:absolute;inset:-6px;border-radius:50%;
+    border:1px solid rgba(0,212,255,.4);animation:ripple 2.5s ease-out infinite;
+  }
+  .node.n1{top:5%;left:50%;transform:translateX(-50%)}
+  .node.n2{top:50%;right:5%;transform:translateY(-50%);background:var(--blue);box-shadow:0 0 18px var(--blue)}
+  .node.n3{bottom:5%;left:50%;transform:translateX(-50%);background:var(--violet);box-shadow:0 0 18px var(--violet)}
+  .node.n4{top:50%;left:5%;transform:translateY(-50%)}
+
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes pulse{0%,100%{transform:scale(1);opacity:.95}50%{transform:scale(1.05);opacity:1}}
+  @keyframes ripple{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.5);opacity:0}}
+
+  /* Stats */
+  .stats{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:60px;
+  }
+  @media (max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{
+    padding:22px;border-radius:var(--radius);
+    background:var(--surface);border:1px solid var(--border);
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    text-align:center;
+  }
+  .stat-num{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:clamp(26px,3vw,36px);font-weight:700;
+    background:var(--accent);-webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .stat-lbl{color:var(--text-dim);font-size:13.5px;margin-top:6px}
+
+  /* Sections */
+  section{padding:90px 0;position:relative}
+  @media (max-width:720px){section{padding:64px 0}}
+  .sec-head{text-align:center;max-width:720px;margin:0 auto 56px}
+  .sec-tag{
+    display:inline-block;padding:6px 14px;border-radius:999px;
+    background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.25);
+    color:var(--cyan);font-size:12.5px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;
+    margin-bottom:16px;
+  }
+  h2{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:clamp(28px,3.6vw,44px);line-height:1.1;letter-spacing:-.015em;
+    margin:0 0 16px;font-weight:700;
+  }
+  h2 .grad{background:var(--accent);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec-lead{color:var(--text-dim);font-size:17px;margin:0}
+
+  /* Content grid with sidebar */
+  .layout{
+    display:grid;grid-template-columns:1fr 320px;gap:40px;align-items:start;
+  }
+  @media (max-width:960px){.layout{grid-template-columns:1fr}}
+
+  /* Cards */
+  .card-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:20px;
+  }
+  @media (max-width:640px){.card-grid{grid-template-columns:1fr}}
+
+  .glass{
+    position:relative;padding:26px;border-radius:var(--radius);
+    background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));
+    border:1px solid var(--border);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    transition:transform .3s var(--ease),border-color .3s var(--ease),box-shadow .3s var(--ease);
+    overflow:hidden;
+  }
+  .glass::before{
+    content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 200px at var(--mx,50%) var(--my,0%),rgba(0,212,255,.08),transparent 60%);
+    opacity:0;transition:opacity .3s;pointer-events:none;
+  }
+  .glass:hover{transform:translateY(-4px);border-color:var(--border-strong);box-shadow:0 20px 50px -20px rgba(0,212,255,.25)}
+  .glass:hover::before{opacity:1}
+
+  .card-icon{
+    width:48px;height:48px;border-radius:12px;
+    background:linear-gradient(135deg,rgba(0,212,255,.2),rgba(41,98,255,.2));
+    border:1px solid var(--border-strong);
+    display:grid;place-items:center;margin-bottom:18px;
+    color:var(--cyan);
+  }
+  .card-icon svg{width:24px;height:24px}
+  .glass h3{margin:0 0 10px;font-size:19px;font-weight:600}
+  .glass p{margin:0;color:var(--text-dim);font-size:14.5px}
+
+  /* Sidebar promos */
+  aside.sidebar{position:sticky;top:96px;display:flex;flex-direction:column;gap:20px}
+  @media (max-width:960px){aside.sidebar{position:static;flex-direction:row;flex-wrap:wrap}
+    aside.sidebar .promo{flex:1 1 260px}}
+
+  .promo{
+    padding:24px;border-radius:var(--radius);
+    background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));
+    border:1px solid var(--border);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    position:relative;overflow:hidden;
+  }
+  .promo::after{
+    content:"";position:absolute;inset:-1px;border-radius:inherit;
+    background:linear-gradient(135deg,transparent,rgba(0,212,255,.15),transparent);
+    pointer-events:none;
+  }
+  .promo-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .promo-logo{
+    width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+    font-weight:800;font-size:18px;
+  }
+  .promo.xlm .promo-logo{background:linear-gradient(135deg,#1a9cff,#00d4ff);color:#001024}
+  .promo.trump .promo-logo{background:linear-gradient(135deg,#c8102e,#ff6b35);color:#fff}
+  .promo h4{margin:0;font-size:16px;font-weight:700}
+  .promo .ticker{font-size:12px;color:var(--text-mute);letter-spacing:.5px}
+  .promo p{font-size:13.5px;color:var(--text-dim);margin:0 0 16px}
+  .promo .disclaimer{
+    font-size:11px;color:var(--text-mute);line-height:1.5;
+    padding-top:12px;border-top:1px dashed var(--border);margin-top:12px;
+  }
+  .promo-link{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:13px;font-weight:600;color:var(--cyan);
+  }
+  .promo-link:hover{text-decoration:underline}
+
+  /* Developer section */
+  .dev-wrap{
+    padding:44px;border-radius:24px;
+    background:linear-gradient(135deg,rgba(0,212,255,.08),rgba(41,98,255,.08),rgba(124,92,255,.08));
+    border:1px solid var(--border-strong);
+    position:relative;overflow:hidden;
+  }
+  .dev-wrap::before{
+    content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 300px at 80% 0%,rgba(0,212,255,.15),transparent 60%);
+    pointer-events:none;
+  }
+  .dev-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative}
+  @media (max-width:860px){.dev-grid{grid-template-columns:1fr}}
+  .dev-list{list-style:none;padding:0;margin:20px 0 28px;display:grid;gap:12px}
+  .dev-list li{display:flex;gap:12px;align-items:flex-start;color:var(--text-dim);font-size:15px}
+  .dev-list svg{flex-shrink:0;color:var(--cyan);margin-top:3px}
+  .code-block{
+    background:rgba(3,6,15,.7);border:1px solid var(--border);
+    border-radius:14px;padding:20px;font-family:'JetBrains Mono',ui-monospace,monospace;
+    font-size:13px;line-height:1.7;overflow:auto;
+  }
+  .code-block .kw{color:#7c5cff}
+  .code-block .str{color:#00d4ff}
+  .code-block .com{color:var(--text-mute);font-style:italic}
+  .code-block .fn{color:#ffd166}
+
+  /* FAQ */
+  .faq{display:grid;gap:12px;max-width:820px;margin:0 auto}
+  details.faq-item{
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:14px;padding:20px 24px;transition:border-color .2s;
+  }
+  details.faq-item[open]{border-color:var(--border-strong)}
+  details.faq-item summary{
+    cursor:pointer;font-weight:600;font-size:16px;
+    display:flex;justify-content:space-between;align-items:center;gap:16px;
+    list-style:none;
+  }
+  details.faq-item summary::-webkit-details-marker{display:none}
+  details.faq-item summary::after{
+    content:"+";font-size:22px;color:var(--cyan);transition:transform .2s;
+  }
+  details.faq-item[open] summary::after{transform:rotate(45deg)}
+  details.faq-item p{color:var(--text-dim);margin:12px 0 0;font-size:14.5px}
+
+  /* Footer */
+  footer.site{
+    border-top:1px solid var(--border);
+    padding:60px 0 30px;margin-top:40px;
+    background:linear-gradient(180deg,transparent,rgba(3,6,15,.6));
+  }
+  .foot-grid{
+    display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px;margin-bottom:40px;
+  }
+  @media (max-width:820px){.foot-grid{grid-template-columns:1fr 1fr;gap:30px}}
+  @media (max-width:480px){.foot-grid{grid-template-columns:1fr}}
+  .foot-col h5{
+    font-size:13px;text-transform:uppercase;letter-spacing:1.2px;
+    color:var(--text-mute);margin:0 0 16px;font-weight:600;
+  }
+  .foot-col ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  .foot-col a{color:var(--text-dim);font-size:14px;transition:color .2s}
+  .foot-col a:hover{color:var(--cyan)}
+  .foot-about p{color:var(--text-dim);font-size:14px;margin:14px 0 18px;max-width:36ch}
+  .socials{display:flex;gap:10px}
+  .socials a{
+    width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+    background:var(--surface);border:1px solid var(--border);
+    transition:all .2s;
+  }
+  .socials a:hover{background:var(--surface-strong);border-color:var(--border-strong);color:var(--cyan)}
+  .socials svg{width:16px;height:16px}
+
+  .foot-bottom{
+    display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;
+    padding-top:24px;border-top:1px solid var(--border);
+    font-size:13px;color:var(--text-mute);
+  }
+  .legal{
+    font-size:12px;color:var(--text-mute);line-height:1.6;
+    max-width:900px;margin:20px auto 0;text-align:center;
+    padding:18px;border:1px dashed var(--border);border-radius:12px;
+  }
+
+  /* Reveal animation */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* Focus styles */
+  a:focus-visible,button:focus-visible,summary:focus-visible{
+    outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px;
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="bg-layer" aria-hidden="true"></div>
+<canvas id="networkCanvas" aria-hidden="true"></canvas>
+
+<!-- HEADER -->
+<header class="site" role="banner">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Protocol 27 home">
+      <span class="brand-mark" aria-hidden="true">P27</span>
+      <span class="brand-name">Protocol <span>27</span></span>
+    </a>
+
+    <nav class="primary" id="primaryNav" aria-label="Primary">
+      <ul>
+        <li><a href="#what">What is Protocol 27</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#stellar">Why Stellar</a></li>
+        <li><a href="#developers">Developers</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="reveal">
+          <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Built on the Stellar ecosystem</span>
+          <h1 id="hero-title">
+            Protocol 27: Building the Future of <span class="grad">Open Blockchain Innovation</span> with Stellar
+          </h1>
+          <p class="hero-sub">
+            Protocol 27 represents modern blockchain infrastructure engineered for the next era of open finance — combining
+            <strong>sub-second settlement</strong>, transparent consensus, near-zero transaction costs, and seamless
+            interoperability across the Stellar ecosystem. It is the foundation for developers building decentralized
+            finance, global payments, and programmable money at internet scale.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://stellar.org" rel="noopener" target="_blank">
+              Explore Stellar
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="https://developers.stellar.org" rel="noopener" target="_blank" title="Read the official Stellar developer documentation, SDKs, and API reference">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              Developer Documentation
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Highlights">
+            <span><b>3–5s</b> settlement</span>
+            <span><b>0.00001 XLM</b> avg fee</span>
+            <span><b>100+</b> countries</span>
+            <span><b>Open source</b></span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="ring"></div>
+          <div class="ring r2"></div>
+          <div class="ring r3"></div>
+          <div class="core"></div>
+          <span class="node n1"></span>
+          <span class="node n2"></span>
+          <span class="node n3"></span>
+          <span class="node n4"></span>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats reveal" aria-label="Platform statistics">
+        <div class="stat"><div class="stat-num" data-target="5" data-suffix="s">0s</div><div class="stat-lbl">Settlement time</div></div>
+        <div class="stat"><div class="stat-num" data-target="100" data-suffix="+">0+</div><div class="stat-lbl">Supported countries</div></div>
+        <div class="stat"><div class="stat-num" data-target="0.00001" data-suffix=" XLM" data-decimals="5">0 XLM</div><div class="stat-lbl">Average fee</div></div>
+        <div class="stat"><div class="stat-num" data-target="15" data-suffix="M+">0M+</div><div class="stat-lbl">Transactions processed</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IS Protocol 27 -->
+  <section id="what" aria-labelledby="what-title">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Overview</span>
+        <h2 id="what-title">What is <span class="grad">Protocol 27</span>?</h2>
+        <p class="sec-lead">
+          Protocol 27 is a modern blockchain initiative designed to bring clarity, speed, and openness to decentralized
+          financial infrastructure. Anchored on the Stellar network, Protocol 27 technology provides the rails for
+          applications that need to move value globally — instantly, transparently, and at a fraction of the cost of
+          legacy systems.
+        </p>
+      </div>
+
+      <div class="layout">
+        <div>
+          <div class="card-grid">
+            <article class="glass reveal">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <h3>Engineered for speed</h3>
+              <p>Protocol 27 leverages the Stellar consensus protocol to confirm transactions in 3–5 seconds, enabling real-time financial experiences for users around the world.</p>
+            </article>
+            <article class="glass reveal">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+              </div>
+              <h3>Global by design</h3>
+              <p>From cross-border remittances to micropayments, Protocol 27 blockchain infrastructure reaches over 100 countries with a single, unified network.</p>
+            </article>
+            <article class="glass reveal">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Transparent &amp; verifiable</h3>
+              <p>Every transaction on Protocol 27 is publicly auditable on the Stellar ledger, giving enterprises, developers, and users full confidence in the system.</p>
+            </article>
+            <article class="glass reveal">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/><path d="M12 8v8M8 12h8"/></svg>
+              </div>
+              <h3>Interoperable</h3>
+              <p>Protocol 27 bridges assets, identities, and data across chains and traditional systems — making it a practical layer for open financial infrastructure.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" aria-label="Featured assets">
+          <div class="promo xlm reveal">
+            <div class="promo-head">
+              <div class="promo-logo" aria-hidden="true"></div>
+              <div>
+                <h4>P27</h4>
+                <div class="ticker">Stelalr Blockchain Token</div>
+              </div>
+            </div>
+            <p>		</p>
+            <a class="promo-link" href="https://www.stellarx.com/markets/P27:GBCTEU4TULS63XAXSAQW2HVOIS3X74NYO2U56GMX5SS2IGMRE2CPYRAR/native" rel="noopener" target="_blank">
+              Tradeable on StellarX
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="width:14px;height:14px"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <p class="disclaimer">Informational only. Not financial advice. XLM is an independent asset of the Stellar network.</p>
+          </div>
+
+          <div class="promo trump reveal">
+            <div class="promo-head">
+              <div class="promo-logo" aria-hidden="true"></div>
+              <div>
+                <h4>Zipper</h4>
+                <div class="ticker">Stelalr Blockchain Token</div>
+              </div>
+            </div>
+            <p>		</p>
+            <a class="promo-link" href="https://www.stellarx.com/markets/Zipper:GBCTEU4TULS63XAXSAQW2HVOIS3X74NYO2U56GMX5SS2IGMRE2CPYRAR/native" rel="noopener" target="_blank">
+              Tradeable on StellarX
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="width:14px;height:14px"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <p class="disclaimer">Independent community token. No partnership or endorsement with Protocol 27 or Stellar. Always DYOR.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" aria-labelledby="benefits-title">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Benefits</span>
+        <h2 id="benefits-title">Benefits of <span class="grad">Protocol 27</span></h2>
+        <p class="sec-lead">
+          Protocol 27 combines the best of blockchain engineering with practical, real-world utility — giving teams a
+          dependable foundation for decentralized finance, payments, and tokenized assets.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <h3>Fast settlement</h3>
+          <p>Finality in seconds, not hours. Protocol 27 inherits Stellar's federated consensus to deliver near-instant confirmation for payments and smart operations.</p>
+        </article>
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Low fees</h3>
+          <p>Transaction costs measured in fractions of a cent make Protocol 27 technology viable for micropayments, streaming money, and high-volume settlement.</p>
+        </article>
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Global payments</h3>
+          <p>Send value to any Stellar address worldwide. Built-in pathfinding and asset conversion make cross-border transfers seamless for users and businesses.</p>
+        </article>
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Smart financial infrastructure</h3>
+          <p>Issue tokens, build DEXs, create escrow, and automate payouts with Soroban smart contracts — all on the same fast, low-cost network.</p>
+        </article>
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          </div>
+          <h3>Open-source ecosystem</h3>
+          <p>Protocol 27 is built in the open. Inspect the code, contribute improvements, and deploy with confidence on infrastructure audited by a global community.</p>
+        </article>
+        <article class="glass reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Community &amp; ecosystem</h3>
+          <p>Join thousands of developers, validators, anchors, and builders shaping the future of open financial infrastructure on Protocol 27 and Stellar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY STELLAR -->
+  <section id="stellar" aria-labelledby="stellar-title">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Infrastructure</span>
+        <h2 id="stellar-title">Why developers choose <span class="grad">Stellar</span></h2>
+        <p class="sec-lead">
+          Stellar is the backbone of Protocol 27 — a proven, energy-efficient blockchain purpose-built for finance.
+          It combines institutional-grade reliability with the openness developers need to ship real products.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="glass reveal">
+          <h3>⚡ Fast settlement</h3>
+          <p>Stellar's Federated Byzantine Agreement reaches consensus in 3–5 seconds, enabling responsive user experiences across wallets, exchanges, and payment apps.</p>
+        </article>
+        <article class="glass reveal">
+          <h3>💸 Low fees</h3>
+          <p>Base fee of 0.00001 XLM per operation keeps costs negligible even at massive scale — unlocking business models impossible on higher-fee networks.</p>
+        </article>
+        <article class="glass reveal">
+          <h3>🌍 Global payments</h3>
+          <p>Anchors in dozens of countries connect Stellar to local banking rails, enabling seamless fiat on/off ramps and real cross-border utility.</p>
+        </article>
+        <article class="glass reveal">
+          <h3>🧠 Smart financial infrastructure</h3>
+          <p>Soroban — Stellar's Rust-based smart contract platform — brings WebAssembly-powered programmability with strong safety guarantees.</p>
+        </article>
+        <article class="glass reveal">
+          <h3>🔓 Open-source ecosystem</h3>
+          <p>Every component, from the core protocol to SDKs, is open source under permissive licenses — fostering transparency and long-term sustainability.</p>
+        </article>
+        <article class="glass reveal">
+          <h3>🤝 Community and ecosystem</h3>
+          <p>A vibrant global community of developers, validators, and partners — supported by the Stellar Development Foundation — keeps the network evolving.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEVELOPERS -->
+  <section id="developers" aria-labelledby="dev-title">
+    <div class="container">
+      <div class="dev-wrap reveal">
+        <div class="dev-grid">
+          <div>
+            <span class="sec-tag">For builders</span>
+            <h2 id="dev-title" style="margin-top:12px">Start building on <span class="grad">Protocol 27</span> today</h2>
+            <p style="color:var(--text-dim);margin:14px 0 0">
+              Whether you're shipping a wallet, a payments product, or a DeFi primitive, Protocol 27 gives you
+              production-ready tools on the Stellar network.
+            </p>
+            <ul class="dev-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M20 6 9 17l-5-5"/></svg> Review official Stellar SDKs for JavaScript, Python, Go, Java, and more</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M20 6 9 17l-5-5"/></svg> Explore Horizon and Soroban RPC APIs with interactive documentation</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M20 6 9 17l-5-5"/></svg> Read guides on issuing assets, path payments, and smart contracts</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M20 6 9 17l-5-5"/></svg> Join the Stellar developers community and Protocol 27 Discord</li>
+            </ul>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="https://developers.stellar.org" rel="noopener" target="_blank">
+                Read the docs
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn-ghost" href="https://stellar.org" rel="noopener" target="_blank">
+                Visit Stellar.org
+              </a>
+            </div>
+          </div>
+          <div class="code-block" aria-label="Example code snippet">
+<span class="com">// Submit a payment on Stellar via Protocol 27</span>
+<span class="kw">import</span> { Server, TransactionBuilder, Operation } <span class="kw">from</span> <span class="str">'@stellar/stellar-sdk'</span>;
+
+<span class="kw">const</span> server = <span class="kw">new</span> <span class="fn">Server</span>(<span class="str">'https://horizon.stellar.org'</span>);
+<span class="kw">const</span> tx = <span class="kw">new</span> <span class="fn">TransactionBuilder</span>(account, { fee: <span class="str">'100'</span> })
+  .<span class="fn">addOperation</span>(Operation.<span class="fn">payment</span>({
+    destination: <span class="str">'GDEST...'</span>,
+    asset: <span class="fn">Asset.native</span>(),  <span class="com">// XLM</span>
+    amount: <span class="str">'10'</span>
+  }))
+  .<span class="fn">setTimeout</span>(<span class="str">30</span>).<span class="fn">build</span>();
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-tag">FAQ</span>
+        <h2 id="faq-title">Frequently asked <span class="grad">questions</span></h2>
+      </div>
+      <div class="faq">
+        <details class="faq-item reveal">
+          <summary>What is Protocol 27?</summary>
+          <p>Protocol 27 is a modern blockchain initiative built on the Stellar ecosystem, focused on delivering fast settlement, low transaction costs, transparency, and open financial infrastructure for developers and enterprises.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Why does Protocol 27 use Stellar?</summary>
+          <p>Stellar provides 3–5 second settlement, fractions-of-a-cent fees, a global payment network, and a mature open-source developer ecosystem — making it an ideal foundation for Protocol 27 technology.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>How can developers build on Protocol 27?</summary>
+          <p>Developers can explore Stellar SDKs, APIs, and documentation at stellar.org, join the community, and start building decentralized finance applications on Protocol 27 infrastructure.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Is Protocol 27 related to the TRUMP token?</summary>
+          <p>No. The TRUMP token is an independent community asset. It is not affiliated with, endorsed by, or related to Protocol 27, the Stellar network, or the Stellar Development Foundation.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site" role="contentinfo">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-col foot-about">
+        <a class="brand" href="#top" aria-label="Protocol 27 home">
+          <span class="brand-mark" aria-hidden="true">P27</span>
+          <span class="brand-name">Protocol <span>27</span></span>
+        </a>
+        <p>Open blockchain infrastructure for the next generation of decentralized finance — built on Stellar.</p>
+        <div class="socials" aria-label="Social links">
+          <a href="https://twitter.com/Protocol 27" aria-label="Twitter" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 5.8c-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1A4.1 4.1 0 0 0 11.8 9c-3.4-.2-6.4-1.8-8.4-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.8-.5v.1c0 2 1.4 3.6 3.3 4-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.7 2.1 2.9 3.9 2.9A8.3 8.3 0 0 1 2 18.3a11.7 11.7 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
+          </a>
+          <a href="https://github.com/stellar" aria-label="GitHub" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+          </a>
+          <a href="https://discord.gg/stellar" aria-label="Discord" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4.4A18 18 0 0 0 15.6 3l-.2.4a16 16 0 0 0-6.8 0L8.4 3A18 18 0 0 0 4 4.4C1.7 7.9 1 11.3 1.4 14.7a18 18 0 0 0 5.5 2.8l.5-.8a12 12 0 0 1-1.9-.9l.5-.3a13 13 0 0 0 11 0l.5.3a12 12 0 0 1-1.9.9l.5.8a18 18 0 0 0 5.5-2.8c.5-4-.5-7.3-2.1-10.3zM8.7 12.7c-1 0-1.9-1-1.9-2.1 0-1.2.8-2.1 1.9-2.1 1 0 1.9 1 1.9 2.1 0 1.2-.8 2.1-1.9 2.1zm6.6 0c-1 0-1.9-1-1.9-2.1 0-1.2.8-2.1 1.9-2.1 1 0 1.9 1 1.9 2.1 0 1.2-.8 2.1-1.9 2.1z"/></svg>
+          </a>
+          <a href="https://stellar.org" aria-label="Stellar" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h5>Stellar</h5>
+        <ul>
+          <li><a href="https://stellar.org" rel="noopener" target="_blank">Stellar.org</a></li>
+          <li><a href="https://stellar.org/lumens" rel="noopener" target="_blank">About XLM</a></li>
+          <li><a href="https://stellar.org/ecosystem" rel="noopener" target="_blank">Ecosystem</a></li>
+          <li><a href="https://stellar.org/foundation" rel="noopener" target="_blank">SDF Foundation</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h5>Developers</h5>
+        <ul>
+          <li><a href="https://developers.stellar.org" rel="noopener" target="_blank">Documentation</a></li>
+          <li><a href="https://developers.stellar.org/docs" rel="noopener" target="_blank">Guides</a></li>
+          <li><a href="https://developers.stellar.org/api" rel="noopener" target="_blank">API Reference</a></li>
+          <li><a href="https://developers.stellar.org/docs/sdks" rel="noopener" target="_blank">SDKs</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Use</a></li>
+          <li><a href="#disclaimer">Disclaimer</a></li>
+          <li><a href="#cookies">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="legal" role="note">
+      <strong>Disclaimer:</strong> This website is an informational resource about Protocol 27 and the Stellar ecosystem.
+    </div>
+
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Protocol 27. All rights reserved.</span>
+      <span>Built on the Stellar ecosystem · Open source</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile menu
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('primaryNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+    });
+  });
+
+  // Reveal on scroll
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  // Animated stats
+  var statIO = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var el = e.target;
+      var target = parseFloat(el.dataset.target);
+      var suffix = el.dataset.suffix || '';
+      var decimals = parseInt(el.dataset.decimals || '0',10);
+      var dur = 1600, start = performance.now();
+      function tick(now){
+        var p = Math.min(1,(now-start)/dur);
+        var eased = 1 - Math.pow(1-p,3);
+        var val = target * eased;
+        el.textContent = (decimals ? val.toFixed(decimals) : Math.floor(val)) + suffix;
+        if(p<1) requestAnimationFrame(tick);
+        else el.textContent = (decimals ? target.toFixed(decimals) : target) + suffix;
+      }
+      requestAnimationFrame(tick);
+      statIO.unobserve(el);
+    });
+  },{threshold:.5});
+  document.querySelectorAll('.stat-num').forEach(function(el){ statIO.observe(el); });
+
+  // Card mouse glow
+  document.querySelectorAll('.glass').forEach(function(card){
+    card.addEventListener('mousemove', function(e){
+      var r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', ((e.clientX-r.left)/r.width*100)+'%');
+      card.style.setProperty('--my', ((e.clientY-r.top)/r.height*100)+'%');
+    });
+  });
+
+  // Blockchain network canvas
+  var canvas = document.getElementById('networkCanvas');
+  var ctx = canvas.getContext('2d');
+  var nodes = [];
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var w, h, rafId;
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function resize(){
+    w = canvas.width = window.innerWidth * dpr;
+    h = canvas.height = window.innerHeight * dpr;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    initNodes();
+  }
+  function initNodes(){
+    nodes = [];
+    var count = Math.min(70, Math.floor((window.innerWidth*window.innerHeight)/22000));
+    for(var i=0;i<count;i++){
+      nodes.push({
+        x: Math.random()*w,
+        y: Math.random()*h,
+        vx: (Math.random()-.5)*.25*dpr,
+        vy: (Math.random()-.5)*.25*dpr,
+        r: (Math.random()*1.4+.6)*dpr
+      });
+    }
+  }
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    // connections
+    for(var i=0;i<nodes.length;i++){
+      var a = nodes[i];
+      a.x += a.vx; a.y += a.vy;
+      if(a.x<0||a.x>w) a.vx*=-1;
+      if(a.y<0||a.y>h) a.vy*=-1;
+      for(var j=i+1;j<nodes.length;j++){
+        var b = nodes[j];
+        var dx=a.x-b.x, dy=a.y-b.y;
+        var dist = Math.sqrt(dx*dx+dy*dy);
+        var max = 140*dpr;
+        if(dist<max){
+          var alpha = (1 - dist/max) * .35;
+          ctx.strokeStyle = 'rgba(0,212,255,'+alpha+')';
+          ctx.lineWidth = .6*dpr;
+          ctx.beginPath();
+          ctx.moveTo(a.x,a.y);
+          ctx.lineTo(b.x,b.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // nodes
+    for(var k=0;k<nodes.length;k++){
+      var n = nodes[k];
+      ctx.fillStyle = 'rgba(0,212,255,.8)';
+      ctx.beginPath();
+      ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+      ctx.fill();
+      // glow
+      ctx.fillStyle = 'rgba(0,212,255,.15)';
+      ctx.beginPath();
+      ctx.arc(n.x,n.y,n.r*3,0,Math.PI*2);
+      ctx.fill();
+    }
+    rafId = requestAnimationFrame(draw);
+  }
+
+  if(!prefersReduced){
+    resize();
+    draw();
+    var resizeTimer;
+    window.addEventListener('resize', function(){
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(resize, 150);
+    });
+    // Pause when tab hidden
+    document.addEventListener('visibilitychange', function(){
+      if(document.hidden){ cancelAnimationFrame(rafId); }
+      else { draw(); }
+    });
+  }
+})();
+</script>
+</body>
+</html>
+
