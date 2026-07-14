@@ -10,7 +10,7 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 [DOCUMENTATION]
 ORG_NAME="Protocol 27"
 ORG_URL="https://protocol27.vercel.app"
-ORG_LOGO="https://protocol27.vercel.app/logo.png"
+ORG_LOGO="https://protocol27.vercel.app/og-image.jpg"
 ORG_DESCRIPTION="Stellar Protocol 27 [Zipper] — Key Details and Impact Protocol 27, codenamed [Zipper] is a major Stellar network upgrade scheduled for a mainnet validator vote on July 8, 2026, introducing native authentication delegation, multisig improvements, and a Soroban security fix."
 # --------------------------------------------------------------------------
 [[CURRENCIES]]
@@ -20,7 +20,7 @@ display_decimals=7
 name="Protocol 27"
 desc="Stellar Zipper, Protocol 27 Upgrade Guide"
 image="https://protocol27.vercel.app/P27.png"
-fixed_number=10000000000
+fixed_number=100000000000
 is_asset_anchored=false
 anchor_asset_type="other"
 # --------------------------------------------------------------------------
@@ -31,7 +31,7 @@ display_decimals=7
 name="Zipper"
 desc="Stellar Zipper, Protocol 27 Upgrade Guide"
 image="https://protocol27.vercel.app/Zipper.png"
-fixed_number=10000000000
+fixed_number=100000000000
 is_asset_anchored=false
 anchor_asset_type="other"
 # --------------------------------------------------------------------------
